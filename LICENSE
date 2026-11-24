@@ -1,0 +1,11 @@
+OpenDepthMap Hardware & Firmware Dual Licensing Notice
+
+1. Hardware Designs (CAD, STL, Schematics, PCB Layouts, BOMs, Assembly Guides):
+   Licensed under CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0).
+   https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2
+
+2. Embedded Firmware (ESP32-S3, ESP32-C3, Raspberry Pi Receiver Software):
+   Licensed under the MIT License.
+   Copyright (c) 2026 OpenDepthMap Contributors.
+
+Full license texts (CERN-OHL-P-2.0 and MIT) will be added in LICENSES/ prior to public release.

@@ -1,0 +1,37 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# PlatformIO & ESP-IDF
+.pio/
+build/
+sdkconfig.old
+managed_components/
+
+# C/C++ & .NET NativeAOT (Raspberry Pi)
+*.o
+*.a
+*.so
+bin/
+obj/
+cmake-build-*/
+
+# CAD & PCB Temporary Files
+*.bak
+*.lck
+*-backups/
+fp-info-cache
+
+# Secrets & Local Wi-Fi Configs (never commit)
+.env
+.env.*
+!.env.example
+secrets.h
+wifi_credentials.h
+*.pem
+*.key
