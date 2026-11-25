@@ -16,3 +16,10 @@
 - Always enforce the three-stage telemetry freshness state machine (`FIX: LIVE` 0-5s, `LAG` 6-30s, `STALE` >30s) and minimal compass/depth watchdog fallback screen on the diver wrist receiver.
 - Preserve dual-bank OTA rollback (`OTA_0`/`OTA_1`) on ESP32 targets and read-only overlay with A/B switching on Raspberry Pi targets.
 - Wire frame formats and `opendepthmap.local` payloads MUST conform to the public schemas published in `opendepthmap/protocols`.
+
+## Automatic Milestone Gate (Scope, Safety & Usability)
+Before finalizing any hardware or firmware milestone:
+1. **YAGNI / Scope Discipline:** Favor proven off-the-shelf COTS components and minimal wire protocols over speculative features or custom boards.
+2. **Safety & Security Check:** Audit power/waterproofing fail-safes, watchdog recovery, memory bounds on binary/NMEA parsers, and ensure zero hardcoded Wi-Fi passwords or API keys.
+3. **Diver / Boater Usability Check:** Verify every display state, alert, and setup step is readable under water or in direct sunlight with clear, non-jargon labels.
+4. **Push Hygiene:** Always ask the user explicitly before running `git push`.
