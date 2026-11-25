@@ -1,6 +1,6 @@
 # Hardware & Firmware Architecture Decision Records
 
-Public ADR index for `opendepthmap/hardware` (Phase 2 Autonomous Surface Survey Buoy and Phase 3 Spool Puck + Diver Wrist Receiver). These placeholders lock the planned decision roster prior to Phase 2/3 hardware engineering.
+Public ADR index for `opendepthmap/hardware` (Phase 2 Autonomous Surface Survey Buoy and Phase 3 Tethered Spool Puck (reel-mounted hub relaying surface GPS down a dive line) + Diver Wrist Receiver). These placeholders lock the planned decision roster prior to Phase 2/3 hardware engineering.
 
 | ADR | Title | Status | Target Phase |
 | :--- | :--- | :--- | :--- |

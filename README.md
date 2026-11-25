@@ -3,7 +3,7 @@
 Open-source hardware designs, bills of materials, and embedded firmware for the OpenDepthMap ecosystem:
 
 - **Phase 2:** DIY Autonomous Surface Survey Buoy for nearshore and inland bathymetric logging.
-- **Phase 3:** Tethered Spool Puck and Diver Hand/Wrist Situational Awareness Receiver.
+- **Phase 3:** Tethered Spool Puck (reel-mounted hub relaying surface GPS down a dive line) and Diver Hand/Wrist Situational Awareness Receiver.
 
 **Status:** Early design phase. Mechanical CAD files, schematics, BOMs, and firmware targets will be published here as Phase 2 and Phase 3 milestones progress.
 
